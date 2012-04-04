@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Unohtuiko salasanasi?</h1>
+        <p>Jos unohdit salasanasi, syötä tähän käyttäjätunnuksesi (muistilistan sisäänkirjautumistunnuksesi) 
+            ja rekisteröityessäsi antamasi sähköpostiosoite, niin lähetämme sinulle salasanan 
+            sähköpostiisi.</p>
+        <form action="salasanaHukkunut.php" method="post">
+            <fieldset style="width:500px">
+                <p>Käyttäjätunnuksesi <input type="text" name="tunnus"></p>
+                <p>Sähköpostiosoitteesi <input type="text" name="sahkoposti"></p>
+                <input type="submit" value="OK">
+            </fieldset>
+        </form>
+        <?php
+        ?> 
+    </body>
+</html>
